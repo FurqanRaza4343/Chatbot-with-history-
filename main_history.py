@@ -3,7 +3,7 @@ from google.genai import types
 
 # API key yahan do agar env variable nahi use kar rahe
 client = genai.Client()
-client = genai.Client(api_key="YOU_API_KEY")
+client = genai.Client(api_key="YOU_API_KEY") # paste your API key here....
 
 # Chat create (history auto handle hoti hai)
 chat = client.chats.create(model="gemini-2.5-flash-lite")
